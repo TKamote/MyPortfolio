@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Titillium Web', sans-serif;
+    /*font-family: 'Noto Sans JP', sans-serif;*/
+}
+.container {
+	background-color: #f8f5f5;
+	padding: 10px;	
+}
+.profile {
+	display: flex;
+}
+.Dave_photo img {
+	border-radius: 50%;
+	width: 150px;
+	height: auto;
+}
+.personal {
+	display: flex;
+	flex-direction: column;
+	/*justify-content: space-around;*/
+	align-content: center;
+	vertical-align: auto;
+
+}
+.learning-journey {
+
+}
+
+.certifications img {
+	width: 350px;
+	height: auto;
+
+}
+
+.contact {
+
+}

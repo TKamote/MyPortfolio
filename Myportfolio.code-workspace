@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../BlogA_ElonMusk"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MyPortfolio"
+	}
+}
