@@ -15,6 +15,7 @@
 	border-radius: 50%;
 	width: 150px;
 	height: auto;
+	padding: 10px 5px 10px 5px;
 }
 .personal {
 	display: flex;
@@ -23,6 +24,10 @@
 	align-content: center;
 	vertical-align: auto;
 
+}
+.name {
+	font-size: 1.2rem;
+	font-weight: bold;
 }
 .learning-journey {
 
@@ -37,3 +42,14 @@
 .contact {
 
 }
+.HTMLcert {
+	width: 90vw;
+	height: auto;
+}
+
+.CSScert {
+	width: 90vw;
+	height: auto;
+}
+
+
