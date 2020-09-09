@@ -1,8 +1,11 @@
-* {
+body {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Titillium Web', sans-serif;
     /*font-family: 'Noto Sans JP', sans-serif;*/
+}
+ul li {
+	text-decoration: none;
 }
 .container {
 	background-color: #f8f5f5;
@@ -50,6 +53,62 @@
 .CSScert {
 	width: 90vw;
 	height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		padding: 25px;
+	}
+	.container {
+		background-color: #f8f5f5;
+		padding: 30px;	
+	}
+	.profile {
+		display: flex;
+	}
+	.Dave_photo img {
+		border-radius: 50%;
+		width: 150px;
+		height: auto;
+		padding: 10px 5px 10px 5px;
+	}
+	.personal {
+		display: flex;
+		flex-direction: column;
+		/*justify-content: space-around;*/
+		align-content: center;
+		vertical-align: auto;
+	
+	}
+	.name {
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+	.learning-journey {
+	
+	}
+	
+	.certifications img {
+		width: 350px;
+		height: auto;
+	
+	}
+	
+	.contact {
+	
+	}
+	.HTMLcert {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.CSScert {
+		max-width: 100%;
+		height: auto;
+	}
+	ul li {
+		text-decoration: none;
+	}
 }
 
 
