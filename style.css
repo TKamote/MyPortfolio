@@ -2,14 +2,16 @@ body {
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Titillium Web', sans-serif;
-    /*font-family: 'Noto Sans JP', sans-serif;*/
 }
 .profile li {	
 	list-style-type: none;
 }
 .container {
+	display: grid;
+	grid-template-columns: 1fr;
+	box-sizing: border-box;
 	background-color: #f8f5f5;
-	padding: 0px;	
+	padding: 0 100px;	
 }
 .profile {
 	display: flex;
@@ -34,9 +36,7 @@ body {
 	flex-wrap: wrap;
 	width: auto;
 	height: auto;
-
 }
-
 .name {
 	font-size: 1.2rem;
 	font-weight: bold;
@@ -44,28 +44,20 @@ body {
 .learning-journey {
 	background-color:white;
 	border-radius: 15px;
+	padding: 0 20px;
 }
 .certifications {
 	background-color:white;
-	border-radius: 15px;
+	border-radius: 15px;	
 }
 .certifications img {
 	width: 350px;
 	height: auto;
-
 }
-
 .contact {
-
-}
-.HTMLcert {
-	width: 90vw;
-	height: auto;
-}
-
-.CSScert {
-	width: 90vw;
-	height: auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: start;
 }
 
 @media only screen and (max-width: 600px) {
