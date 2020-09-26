@@ -75,6 +75,11 @@ input {
 	border-radius: 8px;
 	background-color: seashell;
 }
+#submit:hover {
+	cursor: grab;
+	color: rgb(29, 86, 243);
+	transition: color 900ms linear 500ms;
+}
 
 @media only screen and (max-width: 600px) {	
 	.container {
