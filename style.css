@@ -5,6 +5,7 @@ body {
 }
 .profile li {	
 	list-style-type: none;
+	
 }
 .container {
 	display: grid;
@@ -12,6 +13,7 @@ body {
 	box-sizing: border-box;
 	background-color: #f8f5f5;
 	padding: 0 100px;	
+	
 }
 .profile {
 	display: flex;
@@ -79,6 +81,10 @@ input {
 	cursor: grab;
 	color: rgb(29, 86, 243);
 	transition: color 900ms linear 500ms;
+}
+
+ul li {
+	list-style: square;
 }
 
 @media only screen and (max-width: 600px) {	
