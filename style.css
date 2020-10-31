@@ -86,6 +86,9 @@ input {
 ul li {
 	list-style: square;
 }
+.music {
+	padding-bottom: 50px;
+}
 
 @media only screen and (max-width: 600px) {	
 	.container {
