@@ -19,6 +19,11 @@ body {
 	background-color: #f7f6f8;
 	padding: 50px 100px;	
 }
+hr {
+	width: 98%;
+	margin: 0 auto;
+	color: rgb(241, 233, 233);
+}
 .profile {
 	display: flex;
 	flex-direction: row;
@@ -79,16 +84,20 @@ body {
 	border-radius: 20px;
 }
 .cert {
-	box-shadow: 10px 10px 8px #eff3ed, -10px -10px 8px #eff3ed;
+	box-shadow: 1px 2px 15px rgb(0, 0, 0, 0.1), -1px -2px 15px rgb(0, 0, 0, 0.1);
 }
 .contact {
-	width: 100%;
 	margin: 0 auto;
 	display: grid;
-	text-align: center;
 	grid-template-columns: 1fr;
 	justify-content: center;
+	align-items: center;
 	padding: 50px 30px;
+	width: 10%;
+}
+form {
+	text-align: left;
+	width: 100%;
 }
 
 input {
@@ -98,6 +107,7 @@ input {
 	border-radius: 8px;
 	margin-bottom: 10px;
 	background-color: #f7f6f8;
+	box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.1), -0px -1px 5px rgb(0, 0, 0, 0.1);
 }
 #feedback {
 	height: 60px;
@@ -116,6 +126,9 @@ input {
 
 ul li {
 	list-style: circle;
+}
+footer {
+	padding: 20px;
 }
 
 /*
