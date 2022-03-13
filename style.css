@@ -5,24 +5,19 @@
 }
 
 body {
-	width: 1440px;
-	margin: 0px;
-	padding: 0px;
 	font-family: 'Titillium Web', sans-serif;
-	background-color: rgb(101, 52, 180);
-}
-.profile li {	
-	list-style-type: none;
-	
+	max-width: 1400px;
 }
 .container {
 	display: grid;
-	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 	justify-content: center;
+	align-items: center;
 	grid-template-columns: 1fr;
 	box-sizing: border-box;
-	background-color: #f8f5f5;
-	padding: 0 100px;	
+	background-color: #f7f6f8;
+	padding: 50px 100px;	
 }
 .profile {
 	display: flex;
@@ -30,20 +25,23 @@ body {
 	background-color:white;
 	border-radius: 15px;
 	text-decoration-style: none;
-	padding: 20px;
+	padding: 30px;
 }
 .Dave_photo img {
 	display: flex;
 	border-radius: 50%;
 	width: 150px;
-	height: auto;
-	padding: 20px 10px 10px 10px;
+	margin: 10px;
 	vertical-align: center;
 	filter: sepia(200%);
+	box-shadow: 1px 2px 8px rgb(0, 0, 0, 0.1), -1px -2px 8px rgb(0, 0, 0, 0.1);
 }
 .personal {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 30px;
 	flex-grow: 1;
 	flex-wrap: wrap;
 	width: auto;
@@ -54,11 +52,12 @@ body {
 .name {
 	font-size: 1.2rem;
 	font-weight: bold;
+	list-style: none;
 }
 .learning-journey {
 	background-color:white;
 	border-radius: 15px;
-	padding: 20px 30px 20px 40px;
+	padding: 20px 30px 20px 50px;
 }
 .certifications {
 	display: flex;
@@ -68,6 +67,9 @@ body {
 	width: 100%;
 	background-color:white;
 	border-radius: 15px;	
+}
+.music {
+	padding: 40px;
 }
 .certifications img {
 	max-width: 350px;
@@ -86,20 +88,22 @@ body {
 	text-align: center;
 	grid-template-columns: 1fr;
 	justify-content: center;
+	padding: 50px 30px;
 }
 
 input {
-	width: 200px;
-	height: 25px;
+	width: 300px;
+	height: 35px;
+	border: solid .5px rgb(223, 216, 216);
 	border-radius: 8px;
 	margin-bottom: 10px;
-	background-color: #f7f8e1;
+	background-color: #f7f6f8;
 }
 #feedback {
 	height: 60px;
 }
 #submit {
-	width: 207px;
+	width: 100px;
 	height: 25px;
 	border-radius: 8px;
 	background-color: seashell;
@@ -111,11 +115,9 @@ input {
 }
 
 ul li {
-	list-style: square;
+	list-style: circle;
 }
-.music {
-	padding-bottom: 50px;
-}
+
 /*
 @media only screen and (max-width: 600px) {	
 	body {
