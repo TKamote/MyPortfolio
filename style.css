@@ -141,35 +141,30 @@ h3 {
 	color: rgb(185, 76, 76);
 }
 
-/*
-@media only screen and (max-width: 600px) {	
-	body {
-		margin: 0px;
-		padding: 0px;
-		font-family: 'Titillium Web', sans-serif;
-	}
+
+@media only screen and (max-width: 375px) {	
 	.container {
-		background-color: #f8f5f5;
-		padding: 10px;
+		max-width: 400px;
+		padding: 50px 20px;	
 	}
 	.profile {
-		display: flex;
+		padding: 10px;
 	}
 	.Dave_photo img {
-		border-radius: 50%;
-		width: 150px;
-		height: auto;
-		padding: 10px 5px 10px 5px;
-		filter: sepia(200%);
+		width: 120px;
+		margin: 6px;	
 	}
 	.personal {
-		display: flex;
-		flex-direction: column;
+		padding-left: 20px;
 	}
 	.name {
-		font-size: 1.2rem;
-		font-weight: bold;
+		font-size: 1.1rem;
 	}
+	.learning-journey {
+		padding: 25px 30px 20px 30px;
+	}
+}
+/*
 	.learning-journey {
 		background-color:white;
 		border-radius: 15px;
