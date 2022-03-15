@@ -72,6 +72,15 @@ hr {
 	background-color:white;
 	border-radius: 15px;	
 }
+span {
+	font-style: italic;
+}
+.specialty {
+	padding-top: 20px;
+	font-size: 1.15rem;
+	color: rgb(70, 13, 13);
+	font-style: italic;
+}
 .music {
 	padding: 40px;
 }
