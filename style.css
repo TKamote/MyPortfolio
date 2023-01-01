@@ -130,9 +130,10 @@ input {
 	border: none;
 }
 #submit:hover {
-	cursor: grab;
-	color: rgb(29, 86, 243);
-	transition: color 900ms linear 500ms;
+	cursor: pointer;
+	background-color: blanchedalmond;
+	color: rgb(33, 35, 41);
+	transition: color 190ms linear 90ms;
 }
 
 ul li {
